@@ -11,7 +11,7 @@ def flame():
 	Name1 = input("Enter ur name:")
 	Name2 = input("Enter ur friend name:")
 
-	category = ["Friends","Enemies","Best friends","Close friends","just friends"]
+	category = ["Friends","Enemies","Best friends","Close friends","just friend"]
 	Rand_number = random.randint(0,4)
 	print(category[Rand_number])
 	
